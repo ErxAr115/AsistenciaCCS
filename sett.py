@@ -1,0 +1,5 @@
+token = 'alphaomega'
+
+whatsapp_token = 'EAAcEYrpRaRsBO5ZC9M5OfSx1I7Rg8T0XF6StgRY43tL62xIQwXZBPBT9Rmd8GMAA4a2xywvD8D7HgrfrYAECsoqRpcKBPE4S78Qik3EAOZBf1c20VvS4DuDhqXWzAtctS2pNqy3CXFfqC1VzoeoaUrO2WB0vU1R6KGFCCIPqBes7ZBI0g15O4sI9ASjpY94e1VYAgUnrG0Ool1iY'
+
+whatsapp_url = 'https://graph.facebook.com/v17.0/134889033042934/messages'
