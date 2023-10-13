@@ -20,11 +20,11 @@
                   "wa_id": "PHONE_NUMBER"
                 }],
               "messages": [{
-                  "from": 526677263734,
+                  "from": "TU NÚMERO DE TELEFONO",
                   "id": "wamid.ID",
                   "timestamp": "TIMESTAMP",
                   "text": {
-                    "body": "horarios de atención"
+                    "body": "MENSAJE"
                   },
                   "type": "text"
                 }]
