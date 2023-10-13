@@ -1,6 +1,7 @@
 # Asistencia CCS
 
 ## Plantilla de mensaje
+```
 {
   "object": "whatsapp_business_account",
   "entry": [{
@@ -32,3 +33,4 @@
         }]
   }]
 }
+```
