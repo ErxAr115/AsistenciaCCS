@@ -26,6 +26,13 @@
 ^ Sitio web: https://www.ccs.edu.mx/
 ^ \nFacebook: https://www.facebook.com/centrodecienciasdesinaloa
 
++ registrarse
+- 
+
+! var registro = Registro\n
+^ 1. Registrarse
+^ 2. Regresar el menú anterior
+
 + [*] (informacion general|info) [*]
 - <bot infogeneral>
 
