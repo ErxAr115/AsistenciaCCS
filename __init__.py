@@ -61,6 +61,8 @@ def webhook_whatsapp():
             else:
               if (mensaje == 'refrigerio' or mensaje == 'comida' or mensaje == 'lunch' or mensaje == 'lonche'):
                  enviarImagen(telefonoCliente, 'https://github.com/ErxAr115/AsistenciaCCS/blob/main/img/Refrigerio.jpg?raw=true')
+              elif (mensaje == 'pagos' or mensaje == 'informacion de pagos'):
+                 enviarDocumento(telefonoCliente, 'LINK')
               enviar(telefonoCliente, respuesta)
             #RETORNAMOS EL STATUS EN UN JSON
             return jsonify({"status": "success"}, 200)
