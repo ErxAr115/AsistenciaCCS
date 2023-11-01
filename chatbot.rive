@@ -6,11 +6,48 @@
 ^ 4. Paquetes de visitas de grupos escolares\n
 ^ 5. Finalizar\n
 
++ (info cursos|informacion sobre los cursos|informacion sobre cursos)
+- Le recordamos que nuestros cursos de verano son comprendidos en los meses de julio y agosto con un horario de 9:00 am a 1:00 pm. Cada curso tiene una duración de una semana (lunes a viernes).
+
++ (costo unitario|unitario)
+- *Costo unitario:* Todos los cursos de verano tienen un costo de 800 pesos a excepción del curso de construye un carrito robotizado que tiene un costo de 1250 pesos.
+
++ (promocion|promociones)
+- *Promociones:* Al registrarse con el mismo nombre del participante se le aplica un 10% de descuento a cada curso cuando se inscribe en 3 cursos o más.
+
++ (refrigerio|comida|lunch|lonche)
+- Para comodidad de los participantes, se pone a disposición un refrigerio diario (alimento y bebida) con un costo adicional de $60 pesos
+
+! var cartelera = Cartelera\n
+^ 1. 4-6 años\n
+^ 2. 6-8 años\n
+^ 3. 9 años en adelante\n
+
+! var costos = Costos\n
+^ 1. Costo Unitario
+^ 2. Promociones
+
+! var pagos = Información de pagos de curso de verano\n
+^ Una vez registrado el participante, se tienen 72 horas para completar el proceso.\n
+^ Puede pasar a pagar con tarjeta o en efectivo directo en *la taquilla* del Centro de Ciencias en un horario de 9:00 am a 6:30 pm.\n
+^ También puede realizar su pago por medio de *depósito o transferencia bancaria (Los datos de pago se encuentran en el archivo PDF.)*\n
+^ Una vez realizado el pago, deberá de enviar por correo a vinculacioneducativa@ccs.edu.mx o enviar vía WhatsApp al celular: 6674081945 su comprobante de pago y la CURP del participante.\n
+^ En caso de requerir factura, solicitarla el día de su pago.
+
+! var cursosverano = Cursos de verano\n
+^ 1. Información sobre cursos\n
+^ 2. Costos\n
+^ 3. Cartelera\n
+^ 4. Refrigerio\n
+^ 5. Información de pagos\n
+^ 6. Registrarse en un curso de verano\n
+^ 7. Regresar al menú anterior\n
+
 ! var infogeneral = Información General\n
-^ Tarifas\n
-^ Horarios de atención\n
-^ Medios de contacto\n
-^ Regresar al menú anterior\n
+^ 1. Tarifas\n
+^ 2. Horarios de atención\n
+^ 3. Medios de contacto\n
+^ 4. Regresar al menú anterior\n
 
 ! var tarifas = Tarifas\n
 ^ Niños menores de 4 años: gratis\n
@@ -21,26 +58,48 @@
 ^ Discapacitados: $40 pesos\n
 ^ Presentando credencial vigente\n
 
+! var costos = Costos\n
+^ 1. Costo Unitario.\n
+^ 2. Promociones.\n
+
+! var infocursos = Información general de cursos:\n
+^ Le recordamos que nuestros cursos de verano son comprendidos en los meses de julio y agosto con un horario de 9:00 am a 1:00 pm. Cada curso tiene una duración de una semana (lunes a viernes).
+
 ! var contacto = Medios de contacto:\n
 ^ Teléfono: 6677599000\n
 ^ Sitio web: https://www.ccs.edu.mx/
 ^ \nFacebook: https://www.facebook.com/centrodecienciasdesinaloa
 
 + registrarse
-- 
+- Si desea registrar a un participante, seleccione el enlace: http://www.ccs.edu.mx/cursosverano
 
 ! var registro = Registro\n
-^ 1. Registrarse
-^ 2. Regresar el menú anterior
+^ 1. Registrarse\n
+^ 2. Regresar al menú anterior
+
++ [*] (registrarse en un curso|registrarse en un curso de verano|registrar curso|registro)
+- <bot registro>
 
 + [*] (informacion general|info) [*]
 - <bot infogeneral>
 
++ [*] (cartelera) [*]
+- <bot cartelera>
+
++ [*] (cursos|verano|cursos de verano) [*]
+- <bot cursosverano>
+
 + [*] (tarifas|precios) [*]
 - <bot tarifas>
 
++ [*] (costos) [*]
+- <bot costos>
+
 + [*] (contacto|medios de contacto|telefono|facebook|pagina web|web|sitio web) [*]
 - <bot contacto>
+
++ [*] (pagos|informacion de pago) [*]
+- <bot pagos>
 
 + [*] (horarios|horarios de atencion) [*]
 - Los horarios de atención son de lunes a viernes de 9:00 am a 7:00 pm., sábado y domingo de 12:00 pm a 7:00 pm.
